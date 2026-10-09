@@ -1,0 +1,2 @@
+-keep class com.example.virtualcamera.** { *; }
+-dontwarn com.example.virtualcamera.**

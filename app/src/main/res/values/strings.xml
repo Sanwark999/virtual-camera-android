@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Virtual Camera Stream</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enable_camera_source">Camera Source</string>
+    <string name="status">Status</string>
+    <string name="rtmp_url">RTMP URL</string>
+    <string name="default_rtmp_url">rtmp://192.168.1.11:1935/live/server</string>
+</resources>
