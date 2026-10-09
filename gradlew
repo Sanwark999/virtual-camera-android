@@ -58,7 +58,7 @@ case $( uname ) in                #(
   CYGWIN* )         CYGWIN=yes;; #(
   Darwin* )         DARWIN=yes;; #(
   MSYS* | MINGW* )  MSYS=yes;;    #(
-  NOTO* )           NOTO="yes";;  #(
+  NOTO* )           NOTO="yes";; #(
   * )               ;;
 esac
 
@@ -87,7 +87,7 @@ if [ "$CYGWIN" = "yes" ] || [ "$MSYS" = "yes" ] ; then
 fi
 
 if [ -z "$GRADLE_HOME" ]; then
-    GRADLE_HOME="$( find . -type f -name "gradle" | head -1 | xargs dirname )"
+    GRADLE_HOME="$( find . -type f -name gradle | head -1 | xargs dirname )"
 fi
 
 exec "$JAVACMD" "$@"
